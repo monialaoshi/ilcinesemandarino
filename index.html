@@ -49,8 +49,8 @@
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-  <!-- Custom styles for this template CHANGE TO CSS ONCE FINISHED -->
-  <link href="css/creative.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/creative.min.css" rel="stylesheet">
 
   <!-- cookie banner -->
   <link rel="stylesheet" type="text/css" href="css/cookieconsent.min.css" />
@@ -89,12 +89,13 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" cz-shortcut-listen="true">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Il Cinese Mandarino</a>
+      
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -112,6 +113,11 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contatti">Contatti</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/il_cinese_mandarino/"><ion-icon class="social-icon-logo-menu" name="logo-instagram"></ion-icon></a>
+            <a href="https://www.facebook.com/lezionidicineseonline/"><ion-icon class="social-icon-logo-menu" name="logo-facebook"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/monia-fontana-59a509140/"><ion-icon class="social-icon-logo-menu" name="logo-linkedin"></ion-icon></a>
           </li>
         </ul>
       </div>
@@ -137,10 +143,10 @@
         <div class="col-lg-8 mx-auto text-center" style="max-width: 85%; flex: 85%;">
           <h2 class="section-heading">Perché studiare il cinese</h2>
           <hr class="primary">
-          <p class="text-muted">
-            Il cinese è la lingua più parlata al mondo, padroneggiare questa lingua significa quindi  essere in grado di dare una svolta al proprio futuro professionale, ma poiché il cinese è una lingua fatta di ideogrammi, pinyin e toni,  significa anche investire molto tempo e tanta fatica nello studio.
-Imparare il cinese viene considerato un investimento più che vantaggioso per i numerosissimi sbocchi occupazionali. Essendo una lingua di primaria importanza negli affari, nel commercio e nel turismo, è in grado di aprirci le porte a nuove occasioni lavorative, e ci dà accesso alle opportunità di business offerte dal mercato di una delle più grandi potenze economiche mondiali.
-In occidente le collaborazioni con il gigante asiatico sono sempre più numerose dunque sarà sempre più necessario conoscere il cinese per fare affari con questo importantissimo partner economico. Conoscere il cinese quindi è senza dubbio tra i requisiti indispensabili per un biglietto da visita e un curriculum di successo nel mondo del lavoro.
+          <p class="text">
+            Il cinese è la lingua più parlata al mondo, padroneggiare questa lingua significa quindi  essere in grado di dare una svolta al proprio <b>futuro professionale</b>, ma poiché il cinese è una lingua fatta di ideogrammi, pinyin e toni,  significa anche investire molto tempo e tanta fatica nello studio.
+Imparare il cinese viene considerato un <b>investimento</b> più che vantaggioso per i numerosissimi <b>sbocchi occupazionali</b>. Essendo una lingua di primaria importanza negli affari, nel commercio e nel turismo, è in grado di <b>aprirci le porte a nuove occasioni lavorative</b>, e ci dà accesso alle opportunità di business offerte dal mercato di una delle più grandi potenze economiche mondiali.
+In occidente le collaborazioni con il gigante asiatico sono sempre più numerose dunque sarà sempre più necessario conoscere il cinese per fare affari con questo importantissimo partner economico. Conoscere il cinese è quindi senza dubbio tra i requisiti indispensabili per un biglietto da visita e un <b>curriculum di successo</b> nel mondo del lavoro.
           </p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#chisono">Chi Sono</a>
         </div>
@@ -170,7 +176,7 @@ Ancora oggi insegno il cinese in contesto privato, sia a singoli che a gruppi, s
   </section>
 
   <!-- Corsi e Lezioni -->
-  <section id="corsielezioni">
+  <section class="bg" id="corsielezioni">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -188,13 +194,13 @@ Ancora oggi insegno il cinese in contesto privato, sia a singoli che a gruppi, s
             </a>
             <h3>Lezioni di lingua Cinese</h3>
             <p class="text-muted">
-              
-            </p>Le lezioni sono rivolte a chi si approccia alla lingua cinese per la prima volta ed intende fornire una conoscenza completa della grammatica del cinese mandarino necessaria per saper svolgere esercizi di scrittura, lettura e traduzione.
+            Le lezioni sono rivolte a chi si approccia alla lingua cinese per la prima volta ed intende fornire una conoscenza completa della grammatica del cinese mandarino necessaria per saper svolgere esercizi di scrittura, lettura e traduzione.
             Obiettivi linguistici:
             - leggere e scrivere correttamente circa 866 caratteri cinesi di uso quotidiano 
             - sostenere una semplice conversazione
             - comporre frasi e testi brevi
             - tradurre testi di bassa e media difficoltà
+            </p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 text-center">
@@ -257,28 +263,31 @@ Ancora oggi insegno il cinese in contesto privato, sia a singoli che a gruppi, s
   <section class="bg-dark" id="contatti">
     <div class="call-to-action">
       <div class="container">
+        <!-- mail -->
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Contatti</h2>
             <hr class="primary">
             <p style="font-size: 15px;">Sei interessato ad uno dei corsi o ad un servizio di traduzione? Inviami una mail cliccando sul pulsante qui sotto.</p>
-            <a class="btn btn-default btn-xl sr-button" href="mailto:ilcinesemandarino@gmail.com">ilcinesemandarino@gmail.com</a>
+            <a class="btn btn-default btn-xl sr-button" style="text-transform: lowercase;" href="mailto:ilcinesemandarino@gmail.com">ilcinesemandarino@gmail.com</a>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Social -->
-  <section id="social">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading">Social</h2>
-          <hr class="primary">
-          <p style="font-size: 15px;">
-            Seguimi sui Social!
-          </p>
+        <!-- social -->
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Social</h2>
+            <hr class="primary">
+            <p style="font-size: 15px;">
+              Vuoi saperne di più sulla cultura e la lingua cinese? Seguimi sui social!
+            </p>
+            <div calls="social-icons-container">
+              <a href="https://www.instagram.com/il_cinese_mandarino/"><ion-icon class="social-icon-logo" name="logo-instagram"></ion-icon></a>
+              <a href="https://www.facebook.com/lezionidicineseonline/"><ion-icon class="social-icon-logo" name="logo-facebook"></ion-icon></a>
+              <a href="https://www.linkedin.com/in/monia-fontana-59a509140/"><ion-icon class="social-icon-logo" name="logo-linkedin"></ion-icon></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -307,6 +316,9 @@ Ancora oggi insegno il cinese in contesto privato, sia a singoli che a gruppi, s
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
 
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
