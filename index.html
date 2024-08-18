@@ -8,17 +8,38 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XHWSVXWXG5"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-XHWSVXWXG5');
   </script>
   <!-- End Google Analytics -->
 
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1356508055158067');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1356508055158067&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
   <!-- Inizio SEO -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Lezioni di Cinese Mandarino online. Corsi di Cinese. Traduzioni dal Cinese. Cultura e Letteratura Cinese. Impara il Cinese">
+  <meta name="description"
+    content="Lezioni di Cinese Mandarino online. Corsi di Cinese. Traduzioni dal Cinese. Cultura e Letteratura Cinese. Impara il Cinese">
   <meta name="author" content="Monia Fontana">
 
   <title>Il Cinese Mandarino</title>
@@ -26,7 +47,8 @@
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Il Cinese Mandarino">
-  <meta name="twitter:description" content="Lezioni di Cinese Mandarino online. Corsi di Cinese. Traduzioni dal Cinese. Cultura e Letteratura Cinese. Impara il Cinese.">
+  <meta name="twitter:description"
+    content="Lezioni di Cinese Mandarino online. Corsi di Cinese. Traduzioni dal Cinese. Cultura e Letteratura Cinese. Impara il Cinese.">
   <!-- Twitter Summary card images must be at least 120x120px -->
   <meta name="twitter:image" content="https://www.ilcinesemandarino.it/img/header-crop.jpg">
 
@@ -34,7 +56,8 @@
   <meta property="og:title" content="Il Cinese Mandarino" />
   <meta property="og:url" content="https://www.ilcinesemandarino.it" />
   <meta property="og:image" content="https://www.ilcinesemandarino.it/img/header-crop.jpg" />
-  <meta property="og:description" content="Lezioni di Cinese Mandarino online. Corsi di Cinese. Traduzioni dal Cinese. Cultura e Letteratura Cinese. Impara il Cinese." />
+  <meta property="og:description"
+    content="Lezioni di Cinese Mandarino online. Corsi di Cinese. Traduzioni dal Cinese. Cultura e Letteratura Cinese. Impara il Cinese." />
   <meta property="og:site_name" content="Il Cinese Mandarino" />
 
   <!-- Fine SEO -->
@@ -50,41 +73,113 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/creative.min.css" rel="stylesheet">
+  <link href="css/creative.css" rel="stylesheet">
 
-  <!-- cookie banner -->
-  <link rel="stylesheet" type="text/css" href="css/cookieconsent.min.css" />
-  <script src="js/cookieconsent.min.js"></script>
-  <script>
-
-    window.addEventListener("load", function () {
-
-      setTimeout(function () {
-
-        window.cookieconsent.initialise({
-          "palette": {
-            "popup": {
-              "background": "#151613"
-            },
-            "button": {
-              "background": "transparent",
-              "border": "#cb5062",
-              "text": "#cb5062"
-            }
-          },
-          "position": "bottom-right",
-          "content": {
-            "message": "Utilizziamo i cookies per ottenere statistiche sulle visite.",
-            "dismiss": "Ok",
-            "link": "Leggi la privacy policy",
-            "href": "privacy-policy.html"
-          }
-        })
-
-      }, 500);
+  <!-- Additional SEO Meta Tags -->
+  <meta name="keywords"
+    content="lezioni di cinese, corsi di cinese, imparare il cinese, cinese mandarino, traduzioni cinese, lezioni di cinese a Torino, corsi di cinese Torino, imparare il cinese Torino, cinese mandarino Torino, traduzioni cinese Torino">
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="7 days">
+  <meta name="author" content="Monia Fontana">
+  <link rel="canonical" href="https://www.ilcinesemandarino.it/">
 
 
-    });
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationEvent",
+      "name": "Lezioni di Cinese Mandarino",
+      "description": "Lezioni di cinese mandarino online, corsi personalizzati per imparare il cinese in modo efficace.",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Il Cinese Mandarino",
+        "url": "https://www.ilcinesemandarino.it"
+      },
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://www.ilcinesemandarino.it"
+      },
+      "startDate": "2024-01-01",
+      "endDate": "2025-12-31"
+    }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Il Cinese Mandarino",
+    "description": "Lezioni di cinese mandarino online e in presenza a Torino. Corsi personalizzati per imparare il cinese.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Torino",
+      "addressRegion": "TO",
+      "postalCode": "10138",
+      "addressCountry": "IT"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+39 3285781599",
+      "contactType": "Customer Service"
+    },
+    "url": "https://www.ilcinesemandarino.it",
+    "sameAs": [
+      "https://www.facebook.com/lezionidicineseonline/",
+      "https://www.instagram.com/il_cinese_mandarino/",
+      "https://www.linkedin.com/in/monia-fontana-59a509140/"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Il Cinese Mandarino",
+    "description": "Lezioni di cinese mandarino online e in presenza a Torino. Corsi personalizzati per imparare il cinese.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Torino",
+      "addressRegion": "TO",
+      "postalCode": "10138",
+      "addressCountry": "IT"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+39 ",
+      "contactType": "Customer Service"
+    },
+    "url": "https://www.ilcinesemandarino.it",
+    "sameAs": [
+      "https://www.facebook.com/lezionidicineseonline/",
+      "https://www.instagram.com/il_cinese_mandarino/",
+      "https://www.linkedin.com/in/monia-fontana-59a509140/"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "Lezioni di Cinese Mandarino",
+    "description": "Lezioni di cinese mandarino online, corsi personalizzati per imparare il cinese in modo efficace.",
+    "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Il Cinese Mandarino",
+      "url": "https://www.ilcinesemandarino.it"
+    },
+    "location": {
+      "@type": "VirtualLocation",
+      "url": "https://www.ilcinesemandarino.it"
+    },
+    "startDate": "2024-01-01",
+    "endDate": "2025-12-31"
+  }
   </script>
 
 </head>
@@ -95,29 +190,27 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Il Cinese Mandarino</a>
-      
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#chisono">Chi Sono</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#corsielezioni">Corsi e Lezioni</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#traduzioni">Traduzioni</a>
+            <a class="nav-link js-scroll-trigger" href="#inostricorsi">I Nostri Corsi</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contatti">Contatti</a>
           </li>
           <li class="nav-item">
-            <a href="https://www.instagram.com/il_cinese_mandarino/"><ion-icon class="social-icon-logo-menu" name="logo-instagram"></ion-icon></a>
-            <a href="https://www.facebook.com/lezionidicineseonline/"><ion-icon class="social-icon-logo-menu" name="logo-facebook"></ion-icon></a>
-            <a href="https://www.linkedin.com/in/monia-fontana-59a509140/"><ion-icon class="social-icon-logo-menu" name="logo-linkedin"></ion-icon></a>
+            <a href="https://wa.me/393285781599" target="_blank"><ion-icon class="social-icon-logo-menu"
+                name="logo-whatsapp"></ion-icon></a>
+            <a href="https://www.instagram.com/il_cinese_mandarino/" target="_blank"><ion-icon
+                class="social-icon-logo-menu" name="logo-instagram"></ion-icon></a>
+            <a href="https://www.facebook.com/lezionidicineseonline/" target="_blank"><ion-icon
+                class="social-icon-logo-menu" name="logo-facebook"></ion-icon></a>
           </li>
         </ul>
       </div>
@@ -128,10 +221,23 @@
   <header class="masthead">
     <div class="header-content">
       <div class="header-content-inner">
-        <h1 id="homeHeading">Il Cinese Mandarino</h1>
+        <h1>
+          Lezioni e Corsi di
+          <br>
+          Cinese Mandarino
+        </h1>
         <hr>
-        <p>Scopri il fascino della lingua del futuro</p>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#inizia">Inizia</a>
+        <h5 class="header-slogan">
+          Impara il cinese oggi,
+          <br>
+          preparati per il domani!
+        </h5>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#inizia">
+          Inizia
+        </a>
+        <a href="#inizia" class="js-scroll-trigger">
+          <ion-icon name="chevron-down-outline" class="chevron-down-outline"></ion-icon>
+        </a>
       </div>
     </div>
   </header>
@@ -141,119 +247,383 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center" style="max-width: 85%; flex: 85%;">
-          <h2 class="section-heading">Perché studiare il cinese</h2>
+          <h2 class="section-heading">Perché studiare il cinese?</h2>
           <hr class="primary">
-          <p class="text">
-            Il cinese è la lingua più parlata al mondo, padroneggiare questa lingua significa quindi  essere in grado di dare una svolta al proprio <b>futuro professionale</b>, ma poiché il cinese è una lingua fatta di ideogrammi, pinyin e toni,  significa anche investire molto tempo e tanta fatica nello studio.
-Imparare il cinese viene considerato un <b>investimento</b> più che vantaggioso per i numerosissimi <b>sbocchi occupazionali</b>. Essendo una lingua di primaria importanza negli affari, nel commercio e nel turismo, è in grado di <b>aprirci le porte a nuove occasioni lavorative</b>, e ci dà accesso alle opportunità di business offerte dal mercato di una delle più grandi potenze economiche mondiali.
-In occidente le collaborazioni con il gigante asiatico sono sempre più numerose dunque sarà sempre più necessario conoscere il cinese per fare affari con questo importantissimo partner economico. Conoscere il cinese è quindi senza dubbio tra i requisiti indispensabili per un biglietto da visita e un <b>curriculum di successo</b> nel mondo del lavoro.
+
+          <p>
+            Il <strong>cinese è la lingua più parlata al mondo</strong>, e padroneggiarla può dare una <strong>svolta
+              decisiva al tuo futuro professionale</strong>.
+            Sebbene l'apprendimento del cinese richieda impegno, con ideogrammi, pinyin e toni da padroneggiare, il
+            ritorno su
+            questo investimento è inestimabile.
           </p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#chisono">Chi Sono</a>
+          <p>
+            Conoscere il cinese ti apre le porte a una vasta gamma di <strong>opportunità lavorative</strong>, sia in
+            Occidente che nelle
+            collaborazioni internazionali con una delle <strong>maggiori potenze economiche globali</strong>. Il cinese
+            è una lingua chiave negli
+            <strong>affari, nel commercio e nel turismo</strong>, e la sua padronanza è sempre più richiesta per avere
+            successo nel mercato
+            globale.
+          </p>
+          <p>
+            In un mondo in cui le <strong>relazioni con la Cina sono sempre più strategiche</strong>, conoscere il
+            cinese diventa un requisito indispensabile
+            per distinguersi e accedere a <strong>nuove e stimolanti opportunità di business</strong>. Investi nel tuo
+            futuro: <strong>impara il cinese</strong>
+            e trasforma il tuo curriculum in un <em>biglietto da visita vincente</em>.
+          </p>
+
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#recensioni">Vai alle recensioni</a>
+          <a href="#recensioni" class="js-scroll-trigger">
+            <ion-icon name="chevron-down-outline" class="chevron-down-outline"></ion-icon>
+          </a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Chi Sono -->
-  <section class="bg-primary" id="chisono">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center" style="max-width: 85%; flex: 85%;">
-          <h2 class="section-heading text-white">Monia Fontana</h2>
-          <hr class="light">
-          <p class="text-faded">
-            Sono Monia Fontana, Dottoressa in Lingue e Culture dell’Asia e dell’Africa. 
-Ho maturato l’idea di imparare il cinese grazie alla passione per le arti marziali, disciplina che anno dopo anno ha aumentato sempre di più la mia curiosità verso il mondo orientale, tanto da spingermi a lasciare la mia Terra di origine, la Sicilia, per andare a studiare all’Università degli studi di Torino. 
-Durante la carriera accademica ho avuto l’opportunità di applicare le conoscenze acquisite di grammatica e sintassi per leggere, analizzare e tradurre testi di varia natura ( articoli di giornale, saggi, brani letterari) inerenti a  temi diversi: dagli usi e costumi delle minoranze che abitano il continente cinese, al quadro storico-culturale della Cina dalla caduta dell'impero alle riforme degli anni '80, a testi letterari di autori della portata di 啊来(A Lai) e 余华 (Yu Hua). 
-Quella che ho sviluppato e consolidato è una formazione linguistica mirata ad acquisire competenze necessarie per leggere, tradurre, analizzare e utilizzare criticamente testi complessi di diversa tipologia.
-Il mio percorso da insegnante privato di cinese mandarino è stato la naturale conseguenza del mio desiderio di mettermi in gioco e accettare la sfida di insegnare una lingua tanto complessa quanto affascinante come il cinese. Tale percorso ha confermato l’idea che il cinese e l’insegnamento sarebbero stati delle basi fondamentali per costruire il mio futuro in ambito professionale. 
-Ancora oggi insegno il cinese in contesto privato, sia a singoli che a gruppi, sia in presenza che in modalità online. nel tempo libero non rinuncio mai a ritagliarmi  uno spazio di formazione e aggiornamento continuo dedicato alla cultura, al marketing, e alla società cinese in continua e rapida evoluzione, attraverso paper, analisi, report, guide, manuali, e corsi.
-          </p>
-          <a class="btn btn-default btn-xl js-scroll-trigger" href="#corsielezioni">Corsi e Lezioni</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Corsi e Lezioni -->
-  <section class="bg" id="corsielezioni">
+  <!-- Recensioni -->
+  <section class="bg" id="recensioni">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Corsi e Lezioni</h2>
+          <h2 class="section-heading">Cosa dicono i nostri studenti?</h2>
+          <hr class="primary">
+        </div>
+      </div>
+      <div class="row" id="reviews-container">
+
+        <!-- Review -->
+        <div class="col-lg-4 col-md-6 text-center review-box">
+          <div class="courses-box">
+            <h5 class="review-author">
+              <div class="review-author-icon">
+                <span class="author-initial">G</span>
+              </div>
+              Giulia
+            </h5>
+            <div class="review-type">
+              <small>Ha frequentato: Lezioni in presenza</small>
+            </div>
+            <div class="review-stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <p class="review-text">"Monia mi ha aiutato a preparare un esame universitario che non riuscivo a superare.
+              Grazie a lei ce l’ho fatta!
+              Le lezioni erano divise in una parte teorica, dove mi spiegava molto chiaramente gli argomenti di
+              grammatica e una parte pratica, dove avevo l’opportunità di migliorare la lingua in modo concreto.
+              In conclusione, la consiglio vivamente!"
+            </p>
+          </div>
+        </div>
+
+        <!-- Review -->
+        <div class="col-lg-4 col-md-6 text-center review-box">
+          <div class="courses-box">
+            <h5 class="review-author">
+              <div class="review-author-icon">
+                <span class="author-initial">A</span>
+              </div>
+              Anonimo
+            </h5>
+            <div class="review-type">
+              <small>Ha frequentato: Corso di cinese base</small>
+            </div>
+            <div class="review-stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <p class="review-text">"Corso molto completo in ogni aspetto. Il corso è stato così interessante (al di
+              sopra di ogni aspettativa) che avrei voluto che durasse di più. Bravissima la docente e i contenuti molto
+              interessanti e tanto interattivi"
+            </p>
+          </div>
+        </div>
+
+
+        <!-- Review -->
+        <div class="col-lg-4 col-md-6 text-center review-box">
+          <div class="courses-box">
+            <h5 class="review-author">
+              <div class="review-author-icon">
+                <span class="author-initial">G</span>
+              </div>
+              Gaia
+            </h5>
+            <div class="review-type">
+              <small>Ha frequentato: Lezioni online</small>
+            </div>
+            <div class="review-stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <p class="review-text">"Mi è piaciuto molto studiare cinese con Monia. Siamo partite dal livello base ed è
+              stata molto disponibile ad utilizzare il libro di testo che avevo io.
+              È riuscita a spiegarmi in modo chiaro le regole grammaticali, la struttura della frase e i vocaboli. Ci
+              soffermavamo anche sulla pronuncia, facendo vari esercizi; mi correggeva i compiti che facevo in
+              autonomia.
+              Flessibilità di orario.
+
+              È stata una bella esperienza."
+            </p>
+          </div>
+        </div>
+
+        <!-- Review -->
+        <div class="col-lg-4 col-md-6 text-center review-box" style="display: none;">
+          <div class="courses-box">
+            <h5 class="review-author">
+              <div class="review-author-icon">
+                <span class="author-initial">R</span>
+              </div>
+              Rosaclara
+            </h5>
+            <div class="review-type">
+              <small>Ha frequentato: Lezioni in presenza</small>
+            </div>
+            <div class="review-stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <p class="review-text">"Monia sta dando lezioni di cinese a mia figlia di 8 anni. La bambina ha imparato già
+              tanto e si diverte! Non è affatto facile insegnare a una bambina così piccola. Inoltre è disponibile, ha
+              risposto alla richiesta subito e si è organizzata per la prima lezione in davvero poco tempo. Consiglio."
+            </p>
+          </div>
+        </div>
+
+        <!-- Review -->
+        <div class="col-lg-4 col-md-6 text-center review-box" style="display: none;">
+          <div class="courses-box">
+            <h5 class="review-author">
+              <div class="review-author-icon">
+                <span class="author-initial">M</span>
+              </div>
+              Martina
+            </h5>
+            <div class="review-type">
+              <small>Ha frequentato: Lezioni online</small>
+            </div>
+            <div class="review-stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <p class="review-text">"Mi sono trovata benissimo con Monia.
+              È preparata ed ha un modo di insegnare secondo me ottimo.
+              Le lezioni non sono mai noiose ed é molto disponibile per quanto riguarda giorni e orari."
+            </p>
+          </div>
+        </div>
+
+        <!-- Review -->
+        <div class="col-lg-4 col-md-6 text-center review-box" style="display: none;">
+          <div class="courses-box">
+            <h5 class="review-author">
+              <div class="review-author-icon">
+                <span class="author-initial">E</span>
+              </div>
+              Eva
+            </h5>
+            <div class="review-type">
+              <small>Ha frequentato: Lezioni in presenza</small>
+            </div>
+            <div class="review-stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <p class="review-text">"Perfetto! Monia insegna cinese a mia figlia. E' molto professionale, puntuale,
+              paziente e precisa. Le sue spiegazioni sono molto chiare e riesce a trasmettere al suo alunno la sua
+              passione. Seria, rigorosa ed efficace. Consigliatissima!!!"
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Button to show more reviews -->
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <button id="load-more" class="btn btn-light">Mostra altre recensioni</button>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#inostricorsi">Trova il corso giusto per te</a>
+          <a href="#inizia" class="js-scroll-trigger">
+            <ion-icon name="chevron-down-outline" class="chevron-down-outline"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- I Nostri Corsi -->
+  <section class="bg-primary" id="inostricorsi">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-white">Scegli il corso adatto a te</h2>
           <hr class="primary">
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-6 text-center">
-          <div class="reviews-box">
-            <a href="">
-              <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-            </a>
-            <h3>Lezioni di lingua Cinese</h3>
+        <!-- Corso Base -->
+        <div class="col-lg-4 col-md-6 text-center course-box">
+          <div class="courses-box">
+            <i class="fa fa-4x fa-graduation-cap text-primary sr-icons"></i>
+            <h3>Cinese Base</h3>
             <p class="text-muted">
-            Le lezioni sono rivolte a chi si approccia alla lingua cinese per la prima volta ed intende fornire una conoscenza completa della grammatica del cinese mandarino necessaria per saper svolgere esercizi di scrittura, lettura e traduzione.
-            Obiettivi linguistici:
-            - leggere e scrivere correttamente circa 866 caratteri cinesi di uso quotidiano 
-            - sostenere una semplice conversazione
-            - comporre frasi e testi brevi
-            - tradurre testi di bassa e media difficoltà
+              Questo corso è pensato per chi si avvicina per la prima volta alla lingua cinese. Copre i
+              <strong>fondamenti del mandarino</strong>, inclusi i caratteri di base, il pinyin, e la <strong>grammatica
+                essenziale</strong>.
             </p>
+            <div class="course-objectives">
+              <div class="objective">
+                <i class="fa fa-check text-success"></i>
+                <span><strong><u>Leggere testi semplici</u></strong></span>
+              </div>
+              <div class="objective">
+                <i class="fa fa-check text-success"></i>
+                <span><strong><u>Condurre conversazioni quotidiane</u></strong></span>
+              </div>
+              <div class="objective">
+                <i class="fa fa-check text-success"></i>
+                <span><strong><u>Tradurre testi di bassa difficoltà</u></strong></span>
+              </div>
+            </div>
+            <a href="corso_cinese_base.html" class="btn btn-primary btn-xl mt-3">Scopri di più</a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 text-center">
-          <div class="reviews-box">
-            <a href="">
-              <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-            </a>
-            <h3>Corso di traduzione cinese-italiano e viceversa</h3>
+        <!-- Corso Intermedio -->
+        <div class="col-lg-4 col-md-6 text-center course-box">
+          <div class="courses-box">
+            <i class="fa fa-4x fa-language text-primary sr-icons"></i>
+            <h3>Cinese Intermedio</h3>
             <p class="text-muted">
-              Il corso si rivolge a chi ha già completato lo studio della grammatica cinese ed intende ampliare le competenze linguistiche necessarie alla traduzione di testi complessi di varia tipologia.
-        
-              Obiettivi linguistici:
-              - leggere e tradurre testi di media ed alta difficoltà
-              - analizzare testi altamente complessi riconoscendo le varie strutture sintattiche
-              
-              
+              Il corso è destinato a chi ha <strong>già acquisito una
+                conoscenza linguistica di base</strong> del cinese mandarino
+              ed intende completare ed <strong>approfondire</strong> il proprio
+              bagaglio di studio della lingua.
             </p>
+            <div class="course-objectives">
+              <div class="objective">
+                <i class="fa fa-check text-success"></i>
+                <span><strong><u>Acquisizione di un bagaglio lessicale più ampio</u></strong></span>
+              </div>
+              <div class="objective">
+                <i class="fa fa-check text-success"></i>
+                <span><strong><u>Condurre conversazioni di media complessità</u></strong></span>
+              </div>
+              <div class="objective">
+                <i class="fa fa-check text-success"></i>
+                <span><strong><u>Leggere e tradurre testi di media difficoltà</u></strong></span>
+              </div>
+            </div>
+            <a href="corso_cinese_intermedio.html" class="btn btn-primary btn-xl mt-3">Scopri di più</a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 text-center">
-          <div class="reviews-box">
-            <a href="">
-              <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-            </a>
-            <h3>Lezioni di cinese commeriale</h3>
+        <!-- Corso Avanzato -->
+        <div class="col-lg-4 col-md-6 text-center course-box">
+          <div class="courses-box">
+            <i class="fa fa-4x fa-book text-primary sr-icons"></i>
+            <h3>Cinese Avanzato</h3>
             <p class="text-muted">
-              Coming Soon!
-              
-              
+              Questo corso è rivolto a chi desidera raggiungere una <strong>padronanza completa</strong> del cinese,
+              inclusa la capacità di <strong>tradurre e analizzare testi complessi</strong> e partecipare a
+              <strong>discussioni avanzate</strong>.
             </p>
+            <a href="#" class="btn btn-xl mt-3">Coming soon!</a>
           </div>
         </div>
-        
       </div>
     </div>
-    <!-- altre recensioni -->
-    <div style="text-align: center; padding-top: 40px;">
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#traduzioni">Traduzioni</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h5 class="section-heading text-white">- oppure -</h5>
+          <br>
+          <h2 class="section-heading text-white">
+            Prenota una lezione singola,
+            <br>
+            <span class="gold-underline"><strong>la prima è gratis!</strong></span>
+          </h2>
+          <br>
+          <!-- Calendly link widget begin -->
+          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+          <a class="btn btn-light btn-xl js-scroll-trigger btn-book" href=""
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ilcinesemandarino/lezione-di-cinese-mandarino?primary_color=0069FF?hide_gdpr_banner=1'});return false;">
+            Prenota ora</a>
+          <!-- Calendly link widget end -->
+        </div>
+      </div>
     </div>
+
 
   </section>
 
-  <!-- Traduzioni -->
-  <section class="bg-primary" id="traduzioni">
+  <!-- La tua insegnante -->
+  <section class="bg" id="chisono">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto text-center" style="max-width: 85%; flex: 85%;">
-          <h2 class="section-heading text-white">Traduzioni</h2>
-          <hr class="light">
-          <p class="text-faded">
-            Traduzioni professionali dal cinese all’italiano.
+        <div class="col-lg-8 col-md-6 mx-auto text-center">
+          <h2 class="section-heading">La tua Insegnante</h2>
+          <hr class="primary">
+          <!-- Spazio per la foto del profilo -->
+          <img src="img/profilepic.jpg" alt="Monia Fontana" class="img-fluid rounded-circle mb-4"
+            style="max-width: 100%;">
+          <p>
+            Monia Fontana è una <strong>Dott.ssa in Lingue e Culture dell’Asia e dell’Africa</strong>, laureata presso
+            l’Università degli Studi di Torino nel 2019. Specializzata in cinese mandarino, Monia ha maturato una
+            <strong>significativa esperienza professionale</strong> collaborando con privati e con enti di formazione.
           </p>
-          <a class="btn btn-default btn-xl js-scroll-trigger" href="#contatti">Contatti</a>
+
+          <p>
+            Nell'ambito della sua carriera, ha <strong>organizzato e gestito con successo corsi di cinese
+              mandarino</strong> per singoli e per gruppi di vari livelli. Le sue <strong>competenze nell’utilizzo delle
+              piattaforme digitali</strong> per l’insegnamento le hanno permesso di <strong>adattarsi alle diverse
+              esigenze dei corsisti</strong>, garantendo un apprendimento <strong>efficace e coinvolgente</strong>.
+          </p>
+
+          <p>
+            Durante il suo percorso accademico, Monia ha sviluppato una solida <strong>competenza linguistica</strong>,
+            applicando le conoscenze di grammatica e sintassi per <strong>leggere, analizzare e tradurre testi
+              complessi</strong> di varia natura (articoli di giornale, saggi, brani letterari). Questi testi coprono
+            temi che spaziano dagli usi e costumi delle minoranze cinesi, al quadro storico-culturale della Cina, fino
+            ad opere di autori di rilievo come <strong>啊来 (A Lai)</strong> e <strong>余华 (Yu Hua)</strong>.
+          </p>
+
+          <p>
+            La sua <strong>passione per l’insegnamento</strong>, unita all’attenzione per la <strong>qualità delle
+              lezioni</strong>, ha permesso ai suoi studenti di <strong>immergersi completamente nella lingua e nella
+              cultura cinese</strong>, ottenendo risultati significativi. Monia si dedica costantemente
+            all’<strong>aggiornamento professionale</strong>, esplorando le dinamiche culturali e sociali della Cina
+            contemporanea per offrire un insegnamento sempre <strong>al passo con i tempi</strong>.
+          </p>
         </div>
       </div>
     </div>
@@ -263,13 +633,25 @@ Ancora oggi insegno il cinese in contesto privato, sia a singoli che a gruppi, s
   <section class="bg-dark" id="contatti">
     <div class="call-to-action">
       <div class="container">
-        <!-- mail -->
+        <!-- mail, WhatsApp, and Facebook Messenger -->
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Contatti</h2>
+            <h2 class="section-heading">Vuoi maggiori informazioni?</h2>
             <hr class="primary">
-            <p style="font-size: 15px;">Sei interessato ad uno dei corsi o ad un servizio di traduzione? Inviami una mail cliccando sul pulsante qui sotto.</p>
-            <a class="btn btn-default btn-xl sr-button" style="text-transform: lowercase;" href="mailto:ilcinesemandarino@gmail.com">ilcinesemandarino@gmail.com</a>
+            <p style="font-size: 15px;">Sei interessato ad uno dei corsi, vuoi organizzare un corso per i tuoi
+              dipendenti o sei interessato ad un servizio di traduzione?
+              <br><br>
+              Inviami una mail, contattami su WhatsApp o su Facebook Messenger cliccando sui pulsanti qui sotto.
+            </p>
+            <div class="contact-buttons">
+              <a href="mailto:ilcinesemandarino@gmail.com?subject=Richiesta%20Informazioni%20Corsi"
+                class="btn btn-default btn-xl contact-button"
+                style="text-transform: lowercase;">ilcinesemandarino@gmail.com</a>
+              <a href="https://wa.me/393285781599" target="_blank"
+                class="btn btn-success btn-xl contact-button"><ion-icon name="logo-whatsapp"></ion-icon> WhatsApp</a>
+              <a href="https://m.me/lezionidicineseonline" target="_blank" style="background-color: #1877F2;"
+                class="btn btn-primary btn-xl contact-button"><ion-icon name="logo-facebook"></ion-icon> Messenger</a>
+            </div>
           </div>
         </div>
         <!-- social -->
@@ -277,15 +659,18 @@ Ancora oggi insegno il cinese in contesto privato, sia a singoli che a gruppi, s
         <br>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Social</h2>
+            <h2 class="section-heading">Seguimi sui social</h2>
             <hr class="primary">
             <p style="font-size: 15px;">
               Vuoi saperne di più sulla cultura e la lingua cinese? Seguimi sui social!
             </p>
-            <div calls="social-icons-container">
-              <a href="https://www.instagram.com/il_cinese_mandarino/"><ion-icon class="social-icon-logo" name="logo-instagram"></ion-icon></a>
-              <a href="https://www.facebook.com/lezionidicineseonline/"><ion-icon class="social-icon-logo" name="logo-facebook"></ion-icon></a>
-              <a href="https://www.linkedin.com/in/monia-fontana-59a509140/"><ion-icon class="social-icon-logo" name="logo-linkedin"></ion-icon></a>
+            <div class="social-icons-container">
+              <a href="https://www.instagram.com/il_cinese_mandarino/" target="_blank"><ion-icon
+                  class="social-icon-logo" name="logo-instagram"></ion-icon></a>
+              <a href="https://www.facebook.com/lezionidicineseonline/" target="_blank"><ion-icon
+                  class="social-icon-logo" name="logo-facebook"></ion-icon></a>
+              <a href="https://www.linkedin.com/in/monia-fontana-59a509140/" target="_blank"><ion-icon
+                  class="social-icon-logo" name="logo-linkedin"></ion-icon></a>
             </div>
           </div>
         </div>
@@ -296,9 +681,8 @@ Ancora oggi insegno il cinese in contesto privato, sia a singoli che a gruppi, s
   <!-- Footer -->
   <div class="credits bg-dark">
     <div class="container text-center">
-      <p style="font-size: 12px; margin-bottom: 0px; padding: 5px;">Sito web creato da Monia Fontana. Tema da
-        <a href="https://startbootstrap.com/">Start Bootstrap</a>, cookie banner da
-        <a href="https://github.com/insites/cookieconsent">Insites</a>.
+      <p style="font-size: 12px; margin-bottom: 0px; padding: 5px;">Sito web creato da <a
+          href="https://www.linkedin.com/in/giovannigarifo/" target="_blank">Giovanni Garifo</a>
       </p>
     </div>
   </div>
@@ -314,11 +698,18 @@ Ancora oggi insegno il cinese in contesto privato, sia a singoli che a gruppi, s
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
+  <script src="js/creative.js"></script>
 
   <!-- Ionicons -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Calendly badge widget begin -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <script
+    type="text/javascript">window.onload = function () { Calendly.initBadgeWidget({ url: 'https://calendly.com/ilcinesemandarino/lezione-di-cinese-mandarino?hide_gdpr_banner=1&primary_color=0069FF', text: 'Prenota la tua lezione', color: '#f4b400', textColor: '#ffffff', branding: undefined }); }</script>
+  <!-- Calendly badge widget end -->
 </body>
 
 </html>
