@@ -106,7 +106,7 @@
       dismiss: 'Rifiuta',
       allow: 'Acconsenti e chiudi',
       link: 'Leggi di più',
-      href: '/privacy-policy.html'
+      href: 'privacy-policy.html'
     },
     onInitialise: function (status) {
       var type = this.options.type;
