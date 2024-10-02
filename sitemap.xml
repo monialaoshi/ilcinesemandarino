@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.ilcinesemandarino.it/</loc>
+        <lastmod>2024-10-01</lastmod>
+        <priority>1.0</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <!-- Corso di Cinese Base -->
+    <url>
+        <loc>https://www.ilcinesemandarino.it/corso_cinese_base</loc>
+        <lastmod>2024-10-01</lastmod>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Corso di Cinese Intermedio -->
+    <url>
+        <loc>https://www.ilcinesemandarino.it/corso_cinese_intermedio</loc>
+        <lastmod>2024-10-01</lastmod>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Privacy -->
+    <url>
+        <loc>https://www.ilcinesemandarino.it/privacy-policy</loc>
+        <lastmod>2024-10-01</lastmod>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+</urlset>
