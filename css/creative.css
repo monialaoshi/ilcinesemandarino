@@ -678,3 +678,7 @@ fieldset[disabled] .btn-primary:hover {
   display: block;
   margin: 8px auto 0;
 }
+
+.strength-text {
+  font-size: 18px;
+}
